@@ -2,7 +2,6 @@
 
 body {
     display:flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     font-size: 13px;
@@ -113,16 +112,6 @@ h2 {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-#NO-SUPPORTED{
-    display: none;
-    position: fixed;
-    font-size: 30px;
-    bottom: 400px;
-    text-align: center;
-    color:black;
-    text-shadow: 2px 2px 2px black;
-}
-
 
 /* MEDIA QUERIES RESPONSIVE */
 
@@ -135,7 +124,6 @@ h2 {
     body{
         display: flex;
         position: relative;
-        top:200px;
         font-size: 15px;
         height: none;
         justify-content: none;
@@ -148,31 +136,7 @@ h2 {
         'cont3 cont3 cont3';
     }
 }
-@media only screen and (max-width: 1118px) {
-    body{
-        top:300px;
-    }
-
-@media only screen and (max-width: 906px) {
-    body{
-        top:350px;
-    }
-
-}
-@media only screen and (max-width: 840px) {
-    body{
-        top:400px;
-    }
-}
-@media only screen and (max-width: 783px) {
-    body{
-        top:450px;
-    }
-}
 @media only screen and (max-width: 750px) {
-    body{
-        top:600px;
-    }
     main {
         grid-template-areas:
         'cont1'
@@ -180,73 +144,5 @@ h2 {
         'cont3'
         'cont4'
         'cont5';
-    }
-}
-@media only screen and (max-width: 702px) {
-    body{
-        top:650px;
-    }
-}
-@media only screen and (max-width: 651px) {
-    body{
-        top:700px;
-    }
-}
-@media only screen and (max-width: 578px) {
-    body{
-        top:750px;
-    }
-}
-@media only screen and (max-width: 554px) {
-    body{
-        top:800px;
-    }
-}
-@media only screen and (max-width: 503px) {
-    body{
-        top:850px;
-    }
-}
-@media only screen and (max-width: 485px) {
-    body{
-        top:900px;
-    }
-}
-@media only screen and (max-width: 460px) {
-    body{
-        top:950px;
-    }
-}
-@media only screen and (max-width: 449px) {
-    body{
-        top:1000px;
-    }
-}
-@media only screen and (max-width: 420px) {
-    body{
-        top:1060px;
-    }
-}
-@media only screen and (max-width: 407px) {
-    body{
-        top:1120px;
-    }
-}
-@media only screen and (max-width: 381px) {
-    body{
-        top:1180px;
-    }
-}
-@media only screen and (max-width: 366px) {
-    body{
-        top:1220px;
-    }
-}
-@media only screen and (max-width: 360px) {
-    main{
-        display: none;
-    }
-    #NO-SUPPORTED{
-        display: block;
     }
 }
